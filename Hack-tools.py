@@ -3,13 +3,14 @@
 import os
 import sys
 import subprocess
+import time
 os.system('clear') 
 print ("\033[1;32;40m installing some usefull things")
 print ("\033[1;32;40m Installing PHP")
-sleep(2)
+time.sleep(2)
 subprocess.call('pkg install php', shell=True)
 print ("\033[1;32;40m Installing nano(for editing files).")
-sleep(3)
+time.sleep(3)
 subprocess.call('pkg install nano', shell=True)
 os.system('clear')
 logo = """
