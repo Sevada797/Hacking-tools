@@ -20,10 +20,10 @@ logo = """
 |____/ \___| \_/ \__,_|\__,_|\__,_/_/    /_//_/  \n """
 print ("\033[1;32;40m" + logo)
 print ("\033[1;31;40m Some hacking programs for you to install \n"
-print ("\033[1;32;40m 1)Phishing")
-print ("\033[1;32;40m 2)Fb brute-force")
-print ("\033[1;32;40m 3)Fb friends info gather")
-print ("\033[1;32;40m 4)Insta brute-force")
-print ("\033[1;32;40m 5)SMS bombing")
-print ("\033[1;32;40m 6)Fakemailer \n")
+print ("\033[1;32;40m 1" + ) + "Phishing")
+print ("\033[1;32;40m 2" + ) + "Fb brute-force")
+print ("\033[1;32;40m 3")"Fb friends info gather")
+print ("\033[1;32;40m 4")"Insta brute-force")
+print ("\033[1;32;40m 5")"SMS bombing")
+print ("\033[1;32;40m 6")"Fakemailer \n")
 print ("\033[1;31;40m Program is not working now. Building is in progress.")
