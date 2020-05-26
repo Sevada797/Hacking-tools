@@ -1,13 +1,15 @@
 #This is a comment
 #You can install a list of things from here and use
 import os
-os.system ("clear")
-print "\033[1;33;40m
+import sys
+os.system ("clear") 
+logo = """
  ____                      _      _____ ___ _____
 / ___|  _____   ____ _  __| | __ |___  / _ \___  |
 \___ \ / _ \ \ / / _` |/ _` |/ _` | / / (_) | / /
  ___) |  __/\ V / (_| | (_| | (_| |/ / \__, |/ /
-|____/ \___| \_/ \__,_|\__,_|\__,_/_/    /_//_/   "
+|____/ \___| \_/ \__,_|\__,_|\__,_/_/    /_//_/   """
+print "\033[1;32;40m" + logo
 print "\033[1;32;40m installing some usefull things"
 print "\033[1;32;40m Installing PHP"
 time.sleep(1)
