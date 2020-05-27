@@ -4,8 +4,6 @@ import os
 import sys
 import subprocess
 import time
-from goto import with_goto
-@with_goto
 os.system('clear') 
 print ("\033[1;32;40m installing some usefull things")
 print ("\033[1;32;40m Installing PHP")
@@ -30,34 +28,35 @@ print ("\033[1;32;40m Press 4 for Insta brute-force")
 print ("\033[1;32;40m Press 5 for SMS bombing")
 print ("\033[1;32;40m Press 6 for Fakemailer \n")
 print ("\033[1;31;40m Program is not working good now. Building is in progress.")
-label .start
+
+def menu():
 quest = "\033[1;33;40m Enter a number: "
 x = " "
 a = float(input(7*x + quest))
 if a == 1:
   os.system('clear')
-print ("You can also visit")
-print ("shadowave.info & z-shadow.co")
-time.sleep(4)
-subprocess.call('git clone https://github.com/xHak9x/SocialPhish', shell=True)
-subprocess.call('cd SocialPhish')
-subprocess.call('chmod +x socialphish.sh')
-subprocess.call('./socialphish.sh')
+  print ("You can also visit")
+  print ("shadowave.info & z-shadow.co")
+  time.sleep(4)
+  subprocess.call('git clone https://github.com/xHak9x/SocialPhish', shell=True)
+  subprocess.call('cd SocialPhish')
+  subprocess.call('chmod +x socialphish.sh')
+  subprocess.call('./socialphish.sh')
 elif a == 2:
     os.system('clear')
-print ("\033[1;31;40m This is not working now!")
+    print ("\033[1;31;40m This is not working now!")
 elif a == 3:
     os.system('clear')
-print ("\033[1;31;40m This is not working now!")
+    print ("\033[1;31;40m This is not working now!")
 elif a == 4:
     os.system('clear')
-print ("\033[1;31;40m This is not working now!")
+    print ("\033[1;31;40m This is not working now!")
 elif a == 5:
     os.system('clear')
-print ("\033[1;31;40m This is not working now!")
+    print ("\033[1;31;40m This is not working now!")
 elif a == 6:
     os.system('clear')
-print ("\033[1;31;40m This is not working now!")
-   else:
+    print ("\033[1;31;40m This is not working now!")
+else:
     print ("\033[1;31;40m Please input valid number")
-goto .start
+    return menu()
