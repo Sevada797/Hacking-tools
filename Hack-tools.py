@@ -28,7 +28,6 @@ print ("\033[1;32;40m Press 4 for Insta brute-force")
 print ("\033[1;32;40m Press 5 for SMS bombing")
 print ("\033[1;32;40m Press 6 for Fakemailer \n")
 print ("\033[1;31;40m Program is not working good now. Building is in progress.")
-
 def menu():
     quest = "\033[1;33;40m Enter a number: "
     x = " "
@@ -60,3 +59,5 @@ def menu():
     else:
         print ("\033[1;31;40m Please input valid number")
         return menu()
+
+menu()
