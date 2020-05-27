@@ -32,7 +32,7 @@ quest = "\033[1;33;40m Enter a number: "
 x = " "
 a = float(input(7*x + quest))
 if a == 1:
-  os.system(clear)
+  os.system('clear')
 print ("You can also visit")
 print ("shadowave.info & z-shadow.co")
 time.sleep(4)
