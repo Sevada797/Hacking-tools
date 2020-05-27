@@ -57,6 +57,6 @@ def menu():
     elif a == 6:
         os.system('clear')
         print ("\033[1;31;40m This is not working now!")
-else:
+    else:
         print ("\033[1;31;40m Please input valid number")
         return menu()
