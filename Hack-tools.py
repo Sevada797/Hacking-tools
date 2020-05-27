@@ -41,21 +41,21 @@ subprocess.call('git clone https://github.com/xHak9x/SocialPhish', shell=True)
 subprocess.call('cd SocialPhish')
 subprocess.call('chmod +x socialphish.sh')
 subprocess.call('./socialphish.sh')
-   elif a == 2:
-     os.system('clear')
+elif a == 2:
+    os.system('clear')
 print ("\033[1;31;40m This is not working now!")
-   elif a == 3 
-     os.system('clear')
+elif a == 3:
+    os.system('clear')
 print ("\033[1;31;40m This is not working now!")
-   elif a == 4
-     os.system('clear')
+elif a == 4:
+    os.system('clear')
 print ("\033[1;31;40m This is not working now!")
-   elif a == 5 
-     os.system('clear')
+elif a == 5:
+    os.system('clear')
 print ("\033[1;31;40m This is not working now!")
-   elif a == 6
-     os.system('clear')
+elif a == 6:
+    os.system('clear')
 print ("\033[1;31;40m This is not working now!")
    else:
-     print ("\033[1;31;40m Please input valid number")
+    print ("\033[1;31;40m Please input valid number")
 goto start
