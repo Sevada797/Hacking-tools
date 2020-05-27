@@ -4,6 +4,8 @@ import os
 import sys
 import subprocess
 import time
+from goto import with_goto
+@with_goto
 os.system('clear') 
 print ("\033[1;32;40m installing some usefull things")
 print ("\033[1;32;40m Installing PHP")
@@ -28,7 +30,7 @@ print ("\033[1;32;40m Press 4 for Insta brute-force")
 print ("\033[1;32;40m Press 5 for SMS bombing")
 print ("\033[1;32;40m Press 6 for Fakemailer \n")
 print ("\033[1;31;40m Program is not working good now. Building is in progress.")
-label : start
+label .start
 quest = "\033[1;33;40m Enter a number: "
 x = " "
 a = float(input(7*x + quest))
@@ -58,4 +60,4 @@ elif a == 6:
 print ("\033[1;31;40m This is not working now!")
    else:
     print ("\033[1;31;40m Please input valid number")
-goto start
+goto .start
