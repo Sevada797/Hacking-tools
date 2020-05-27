@@ -29,5 +29,11 @@ print ("\033[1;32;40m Press 5 for SMS bombing")
 print ("\033[1;32;40m Press 6 for Fakemailer \n")
 print ("\033[1;31;40m Program is not working good now. Building is in progress.")
 quest = "\033[1;33;40m Enter a number: "
-x = ' '
-input (7*x + quest)
+x = " "
+a = float(input(7*x + quest))
+if a == 1:
+  os.system(clear)
+print ("You can also visit")
+print ("shadowave.info & z-shadow.co")
+time.sleep(4)
+subprocess.call('git clone https://github.com/DarkSecDevelopers/HiddenEye', shell=True)
