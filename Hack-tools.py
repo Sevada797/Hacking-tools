@@ -3,6 +3,7 @@
 import os
 import sys
 import subprocess
+import stat
 import time
 os.system('clear') 
 print ("\033[1;32;40m installing some usefull things")
@@ -38,8 +39,9 @@ def menu():
       print ("shadowave.info & z-shadow.co")
       time.sleep(4)
       subprocess.call('git clone https://github.com/xHak9x/SocialPhish', shell=True)
-      subprocess.call('cd SocialPhish')
-      subprocess.call('chmod +x socialphish.sh')
+      subprocess.call('pkg install open-ssh', shell=TRUE)
+      os.system('cd ./SocialPhish')
+      os.chmod('/data/data/com.termux/files/home/SocialPhish/socialphish.sh', stat.S_IEXEC)
       subprocess.call('./socialphish.sh')
     elif a == 2:
         os.system('clear')
