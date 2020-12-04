@@ -9,10 +9,10 @@ os.system('clear')
 print ("\033[1;32;40m installing some usefull things")
 print ("\033[1;32;40m Installing PHP")
 time.sleep(2)
-subprocess.call('pkg install php', shell=True)
+subprocess.call('pkg install php -y', shell=True)
 print ("\033[1;32;40m Installing nano(for editing files).")
 time.sleep(3)
-subprocess.call('pkg install nano', shell=True)
+subprocess.call('pkg install nano -y', shell=True)
 os.system('clear')
 logo = """
  ____                      _      _____ ___ _____
@@ -62,5 +62,4 @@ def menu():
     else:
         print ("\033[1;31;40m Please input valid number!")
         return menu()
-
 menu()
